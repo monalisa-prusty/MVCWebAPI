@@ -70,11 +70,12 @@ namespace ClinicManagementWebService.Services
             return _context.Doctors.ToList();
         }
 
-        public Doctor Update(int k, Doctor t)
+        public Doctor Update(int k, Doctor t) //swagger works good. but t.doctor_Id has to be specified in post
         {
             try
             {
-                //var Doctor = Get(k);
+                //Doctor doc = Get(k);
+                //doc = t;
                 _context.Update(t);
                 _context.SaveChanges();
                 return t;

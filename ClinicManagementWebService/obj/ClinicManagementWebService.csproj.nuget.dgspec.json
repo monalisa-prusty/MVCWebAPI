@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\CollaberaTraining\\July05Tim\\Mona\\ClinicManagementWebService\\ClinicManagementWebService.csproj": {}
+    "C:\\Users\\ngtik\\Dropbox\\dotnet Work\\MVCWebAPI-main\\ClinicManagementWebService\\ClinicManagementWebService.csproj": {}
   },
   "projects": {
-    "C:\\CollaberaTraining\\July05Tim\\Mona\\ClinicManagementWebService\\ClinicManagementWebService.csproj": {
+    "C:\\Users\\ngtik\\Dropbox\\dotnet Work\\MVCWebAPI-main\\ClinicManagementWebService\\ClinicManagementWebService.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\CollaberaTraining\\July05Tim\\Mona\\ClinicManagementWebService\\ClinicManagementWebService.csproj",
+        "projectUniqueName": "C:\\Users\\ngtik\\Dropbox\\dotnet Work\\MVCWebAPI-main\\ClinicManagementWebService\\ClinicManagementWebService.csproj",
         "projectName": "ClinicManagementWebService",
-        "projectPath": "C:\\CollaberaTraining\\July05Tim\\Mona\\ClinicManagementWebService\\ClinicManagementWebService.csproj",
-        "packagesPath": "C:\\Users\\SWEETHOME\\.nuget\\packages\\",
-        "outputPath": "C:\\CollaberaTraining\\July05Tim\\Mona\\ClinicManagementWebService\\obj\\",
+        "projectPath": "C:\\Users\\ngtik\\Dropbox\\dotnet Work\\MVCWebAPI-main\\ClinicManagementWebService\\ClinicManagementWebService.csproj",
+        "packagesPath": "C:\\Users\\ngtik\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ngtik\\Dropbox\\dotnet Work\\MVCWebAPI-main\\ClinicManagementWebService\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\SWEETHOME\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\ngtik\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -81,7 +85,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.300\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
         }
       }
     }

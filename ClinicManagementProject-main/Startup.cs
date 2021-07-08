@@ -26,7 +26,7 @@ namespace ClinicManagementProject
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddMvc();
-            services.AddDbContext<ClinicManagementContext>(options => options.UseSqlServer(Configuration["ConnectionStrings:companyCon"]));
+            //services.AddDbContext<ClinicManagementContext>(options => options.UseSqlServer(Configuration["ConnectionStrings:companyCon"]));
             services.AddScoped<IRepo<Doctor, string>, DoctorRepo>();
             
         }

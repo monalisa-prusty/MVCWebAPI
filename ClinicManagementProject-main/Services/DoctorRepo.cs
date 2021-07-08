@@ -12,11 +12,18 @@ namespace ClinicManagementProject.Services
 {
     public class DoctorRepo : IRepo<Doctor, string>
     {
-        private readonly ClinicManagementContext _context;
+        //private readonly ClinicManagementContext _context;
+        //private readonly ILogger<DoctorRepo> _logger;
+        //public DoctorRepo(ClinicManagementContext context, ILogger<DoctorRepo> logger)
+        //{
+        //    _context = context;
+        //    _logger = logger;
+        //}
+        
         private readonly ILogger<DoctorRepo> _logger;
-        public DoctorRepo(ClinicManagementContext context, ILogger<DoctorRepo> logger)
+        public DoctorRepo( ILogger<DoctorRepo> logger)
         {
-            _context = context;
+            
             _logger = logger;
         }
 

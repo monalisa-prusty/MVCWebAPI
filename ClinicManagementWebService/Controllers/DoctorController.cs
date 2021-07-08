@@ -28,7 +28,7 @@ namespace ClinicManagementWebService.Controllers
             // GET: api/<DoctorController>
         [HttpGet]
 
-        public IActionResult Get()
+        public IActionResult Get() //swagger working good as long as dont specify identity
         {
             try
             {
@@ -44,7 +44,7 @@ namespace ClinicManagementWebService.Controllers
 
         // GET api/<DoctorController>/5
         [HttpGet("{id}")]
-        public IActionResult Get(int id)
+        public IActionResult Get(int id) //swagger working good as long as dont specify identity
         {
             try
             {
@@ -61,7 +61,7 @@ namespace ClinicManagementWebService.Controllers
 
         // POST api/<DoctorController>
         [HttpPost]
-        public IActionResult Post([FromBody] Doctor doctor)
+        public IActionResult Post([FromBody] Doctor doctor) //swagger working good as long as dont specify identity
         {
             try
             {
@@ -78,7 +78,7 @@ namespace ClinicManagementWebService.Controllers
 
         // PUT api/<DoctorController>/5
         [HttpPut("{id}")]
-        public IActionResult Put(int id, Doctor doctor)
+        public IActionResult Put(int id, Doctor doctor) //swagger works good. but t.doctor_Id has to be specified in post
         {
             try
             {
@@ -95,7 +95,7 @@ namespace ClinicManagementWebService.Controllers
 
         // DELETE api/<DoctorController>/5
         [HttpDelete("{id}")]
-        public IActionResult Delete(int id)
+        public IActionResult Delete(int id) //swagger works good.
         {
             try
             {

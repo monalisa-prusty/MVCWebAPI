@@ -12,10 +12,11 @@ namespace ClinicManagementProject.Controllers
 {
     public class DoctorController : Controller
     {
-        private readonly ILogger<ClinicManagementContext> _logger;
+        //private readonly ILogger<ClinicManagementContext> _logger;
+        private readonly ILogger<DoctorController> _logger;
         private readonly IRepo<Doctor, string> _repo;
 
-        public DoctorController(IRepo<Doctor, string> repo, ILogger<ClinicManagementContext> logger)
+        public DoctorController(IRepo<Doctor, string> repo, ILogger<DoctorController> logger)
         {
             _logger = logger;
             _repo = repo;
@@ -90,7 +91,7 @@ namespace ClinicManagementProject.Controllers
 
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<ActionResult> Edit(int id, Doctor doctor)
+        public async Task<ActionResult> Edit(int id, Doctor doctor) //not getting doctor Id for some reason, nor id
         {
             try
             {
