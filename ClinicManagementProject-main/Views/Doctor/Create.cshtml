@@ -9,6 +9,7 @@
 <html>
 <head>
     <meta name="viewport" content="width=device-width" />
+    <link href="~/lib/bootstrap/bootstrap.css" rel="stylesheet" />
     <title>Create</title>
 </head>
 <body>
@@ -24,7 +25,7 @@
 
                 @Html.LabelFor(m => m.Password, htmlAttributes: new { @class = "form-control" })
                 @Html.PasswordFor(m => m.Password, htmlAttributes: new { @class = "form-control" })
-                @Html.ValidationMessageFor(m => m.Password, "", new { @class = "text-danger" })
+                
 
                 @Html.LabelFor(m => m.Name, htmlAttributes: new { @class = "form-control" })
                 @Html.EditorFor(m => m.Name, new { htmlAttributes = new { @class = "form-control" } })

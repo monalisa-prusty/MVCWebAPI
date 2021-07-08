@@ -65,7 +65,7 @@ namespace ClinicManagementWebService.Controllers
         {
             try
             {
-                int id = _repo.Add(doctor);
+                int id = _repo.Add(doctor); 
                 if (id != -1)
                     return Ok(doctor);
             }
